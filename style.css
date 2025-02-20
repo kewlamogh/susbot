@@ -117,6 +117,7 @@ input {
 } */
 
 .copyright {
+    margin-top: 1vh;
     padding: 1%;
     background-color: #313232;
 }
@@ -128,4 +129,11 @@ input {
 .copyright > span > a {
     color: #00a2e8;
     text-decoration: none;
+}
+
+.fadein.page:nth-child(even) {
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #00a2e8;
+    color: white;
 }
