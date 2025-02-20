@@ -1,0 +1,131 @@
+* {
+    font-family: "Inter", serif;
+    color: black;
+}
+
+body {
+    padding: 5%;
+    /* cursor: none; */
+}
+
+.hero {
+    text-align: center;
+}
+
+.page {
+    height: 98vh;
+}
+
+.reviews {
+    display: flex;
+}
+
+.main {
+    text-align: center;
+}
+
+.hero-text {
+    margin-bottom: 5vh;
+    text-align: left;
+}
+
+.hero > .logo {
+    height: 20vh;
+}
+
+button, a.button {
+    background-color: #00a2e8;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, a.button:hover {
+    background-color: whitesmoke;
+    color: #00a2e8;
+}
+
+h1 {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+
+#refine {
+    margin-top: 2vh;
+}
+
+.answer {
+    max-height: 50vh;
+    padding: 1%;
+    overflow: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #313232;
+    color: white;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.fadein {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-10%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.review {
+    min-width: 20px; 
+    width: 25%;
+    background-color: #00a2e8;
+    margin-right: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    color: white;
+    min-height: 20%;
+}
+
+.sideimage {
+    width: 100%;
+}
+
+.loading {
+    height: 30vh;
+}
+
+/* #circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    pointer-events: none;
+    opacity: 5;
+} */
+
+.copyright {
+    padding: 1%;
+    background-color: #313232;
+}
+
+.copyright > * {
+    color: white;    
+}
+
+.copyright > span > a {
+    color: #00a2e8;
+    text-decoration: none;
+}

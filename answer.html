@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>susbot</title>
+
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="hero fadein page">
+        <img src="assets/logo.png" alt="Tasky's logo" class="logo">
+
+        <h1>susbot's answer</h1>
+        <div class="answer" id = "answer">hello</div>
+        <h2>Refine your prompt</h2>
+        Feel free to fix any typos or add more details to your prompt to get a better answer.
+        <form action="loading.html" id = "refine" class = "fadein">
+            <input type="text" id="prompt" name = "prompt" placeholder="Refine your prompt">
+            <button type="submit">Try again</button>
+        </form>
+    </div>
+    <div class="fadein copyright">
+        <h1>copyright buhub co.</h1>
+        <h2>contact us:</h2>
+        <span>email: <a href="mailto:amogh.sarma@gmail.com">amogh.sarma@gmail.com</a></span>
+    </div>
+    <script src="fade.js" defer></script>
+    <script src="answer.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+
+</html>
