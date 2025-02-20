@@ -120,6 +120,7 @@ input {
     margin-top: 1vh;
     padding: 1%;
     background-color: #313232;
+    border-radius: 10px;
 }
 
 .copyright > * {
