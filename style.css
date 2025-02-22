@@ -5,12 +5,35 @@
 
 body {
     padding: 5%;
-    /* cursor: none; */
-    /* background-image: url("./assets/doodle.jpg"); */
+    background-image: url("./assets/doodle.jpg");
 }
 
 .hero {
     text-align: center;
+    background: rgba(255, 255, 255, 0.5)
+}
+
+.navbar {
+    background-color: #313232;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.navbar > * {
+    color: white;
+    text-decoration: none;
+    margin-right: 1%;
+    max-height: 10vh;
+}
+
+.navbar > a:hover {
+    color: #0bc31d;
+}
+
+.navbar>.logo {
+    height: 100%;
+    margin-right: 1%;
 }
 
 .page {
@@ -35,7 +58,7 @@ body {
 }
 
 button, a.button {
-    background-color: #00a2e8;
+    background-color: #0bc31d;
     padding: 1%;
     border-radius: 10px;
     cursor: pointer;
@@ -44,7 +67,13 @@ button, a.button {
 
 button:hover, a.button:hover {
     background-color: whitesmoke;
-    color: #00a2e8;
+    color: #0bc31d;
+}
+
+#answer-container {
+    padding: 1%;
+    background-color: #313232;
+    border-radius: 10px;
 }
 
 h1 {
@@ -88,7 +117,7 @@ input {
 .review {
     min-width: 20px; 
     width: 25%;
-    background-color: #00a2e8;
+    background-color: #0bc31d;
     margin-right: 5%;
     padding: 1%;
     border-radius: 10px;
@@ -104,20 +133,6 @@ input {
     height: 30vh;
 }
 
-/* #circle {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 1000;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #007bff;
-    pointer-events: none;
-    opacity: 5;
-} */
-
 .copyright {
     margin-top: 1vh;
     padding: 1%;
@@ -130,18 +145,12 @@ input {
 }
 
 .copyright > span > a {
-    color: #00a2e8;
+    color: #0bc31d;
     text-decoration: none;
 }
 
 .fadein.page:nth-child(even) {
     padding: 1%;
     border-radius: 10px;
-    background-color: #00a2e8;
-    color: white;
-}
-
-.fadein.page:nth-child(odd) {
-    padding: 1%;
-    border-radius: 10px;
+    background-color: #0bc31d;
 }

@@ -15,19 +15,27 @@
 </head>
 
 <body>
+    <div class="navbar">
+        <img src="assets/logo.png" alt="Tasky's logo" class="logo">
+        <a href="home.html">🏠 home</a>
+        <a href="about.html">📑 about</a>
+    </div>
+    <div class="fadein page" hidden> </div>
     <div class="hero fadein page">
         <img src="assets/logo.png" alt="Tasky's logo" class="logo">
 
         <h1>susbot's answer</h1>
-        <div class="answer" id = "answer">hello</div>
+        <div id="answer-container">
+            <div class="answer" id="answer">hello</div>
+        </div>
         <h2>Refine your prompt</h2>
         Feel free to fix any typos or add more details to your prompt to get a better answer.
-        <form action="loading.html" id = "refine" class = "fadein">
-            <input type="text" id="prompt" name = "prompt" placeholder="Refine your prompt">
+        <form action="loading.html" id="refine" class="fadein">
+            <input type="text" id="prompt" name="prompt" placeholder="Refine your prompt">
             <button type="submit">Try again</button>
         </form>
     </div>
-    <div class="fadein copyright"  style="margin-top: 3vh;">
+    <div class="fadein copyright" style="margin-top: 3vh;">
         <h1>copyright buhub co.</h1>
         <h2>contact us:</h2>
         <span>email: <a href="mailto:amogh.sarma@gmail.com">amogh.sarma@gmail.com</a></span>

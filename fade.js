@@ -13,12 +13,7 @@ fadeInElements.forEach((element) => {
     observer.observe(element)
 })
 
-// const circle = document.getElementById('circle');
-// const positionCursor = (e) => {
-//     circle.style.left = `${e.clientX}px`;
-//     circle.style.top = `${e.clientY}px`;
-//     console.log("hello")
-// }
-
-// document.addEventListener('mousemove', positionCursor);
-// document.addEventListener('load', positionCursor);
+if (!localStorage.getItem("beenhere")) {
+    document.getElementById("about").click()
+    localStorage.setItem("beenhere", "yea")
+}
