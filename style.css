@@ -6,6 +6,7 @@
 body {
     padding: 5%;
     /* cursor: none; */
+    /* background-image: url("./assets/doodle.jpg"); */
 }
 
 .hero {
@@ -48,6 +49,7 @@ button:hover, a.button:hover {
 
 h1 {
     font-family: "Atkinson Hyperlegible Mono", serif;
+    color: green;
 }
 
 #refine {
@@ -137,4 +139,9 @@ input {
     border-radius: 10px;
     background-color: #00a2e8;
     color: white;
+}
+
+.fadein.page:nth-child(odd) {
+    padding: 1%;
+    border-radius: 10px;
 }
