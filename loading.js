@@ -22,6 +22,7 @@ const loading = async () => {
     console.log(prompt)
 
     let answer;
+    let key = prompt("Enter your API key.")
 
     const url = "https://api.openai.com/v1/chat/completions"
     const val = await fetch(url, {
@@ -37,7 +38,7 @@ const loading = async () => {
         }),
         headers: {
             "Content-type": "application/json; charset=UTF-8",
-            "Authorization": "Bearer XXXXx[replace]"
+            "Authorization": "Bearer "+key
         }
     })
 
